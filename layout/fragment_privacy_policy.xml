@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.PrivacyPolicyFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:textSize="19dp"
+
+        android:text="Privacy Policy : \n\n1. Aplikasi ini merupakan aplikasi beta, apabila menemukan bug harap hubungi kontak pada opsi Contact Us.\n\n2. Aplikasi ini belum diperuntukkan untuk masyarakat umum.\n\n3. Data anda akan kami simpan sebaik-baiknya dan tidak akan dimanfaatkan untuk keuntungan pribadi."
+        />
+</FrameLayout>

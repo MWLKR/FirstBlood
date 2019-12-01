@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    tools:context=".ui.Requests">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/fullName"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="10dp"
+            android:background="@drawable/edit_text_shape"
+            android:textSize="16sp"
+            android:layout_margin="5dp"
+            android:hint="Full name"
+            />
+
+        <Spinner
+
+            android:id="@+id/kota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gender"
+            android:background="@drawable/edit_text_shape"
+
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            />
+
+        <Spinner
+
+            android:id="@+id/bloodGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gender"
+            android:background="@drawable/edit_text_shape"
+
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            />
+
+        <Spinner
+
+            android:id="@+id/amountOfBlood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gender"
+            android:background="@drawable/edit_text_shape"
+
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/contactNumber"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:inputType="number"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_shape"
+            android:textSize="16sp"
+            android:hint="Contact Number"
+            />
+        <EditText
+            android:id="@+id/date"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:inputType="date"
+
+            android:padding="10dp"
+            android:background="@drawable/edit_text_shape"
+            android:textSize="16sp"
+            android:hint="Date"
+            />
+
+        <EditText
+            android:id="@+id/nameOfhospital"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:padding="10dp"
+            android:background="@drawable/edit_text_shape"
+            android:textSize="16sp"
+            android:hint="Name of Hospital"
+            />
+
+
+        <EditText
+            android:id="@+id/reasonforBlood"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:padding="10dp"
+            android:background="@drawable/edit_text_shape"
+            android:textSize="16sp"
+            android:hint="Reason for blood request"
+            />
+
+
+
+
+
+        <Button
+            android:id="@+id/requestForBlood"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingRight="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="20dp"
+            android:layout_below="@id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimary"
+            android:text="request for blood"
+
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</ScrollView>
